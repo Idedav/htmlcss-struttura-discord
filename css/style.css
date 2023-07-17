@@ -31,7 +31,19 @@ nav{
     text-align: center;
 }
 
-.logo, nav, .button-access{
-    border: 2px dotted black; DEBUG 
+.logo, nav, .button-access, .text-head{
+    border: 2px dotted black;
     /* DEBUG */
+}
+
+.background-text-head{
+    background-color: #00008B;
+    padding: 20px;
+}
+
+.text-head{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    background-color: #EE82EE;
 }
