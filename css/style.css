@@ -31,7 +31,7 @@ nav{
     text-align: center;
 }
 
-.logo, nav, .button-access, .text-head{
+.logo, nav, .button-access, .text-head, .section-img, .section-text, .download-container{
     border: 2px dotted black;
     /* DEBUG */
 }
@@ -46,4 +46,39 @@ nav{
     height: 300px;
     margin: auto;
     background-color: #EE82EE;
+}
+
+/* MAIN SECTION */
+
+section{
+    padding: 20px;
+}
+.section-container{
+    width: 80%;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section-img{
+    width: 70%;
+    background-color: #1E90FF;
+}
+
+.section-text{
+    width: 30%;
+    background-color: #FFC0CB;
+}
+
+.background-section{
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.download-container{
+    width: 80%;
+    height: 500px;
+    background-color: green;
+    margin: auto;
 }
