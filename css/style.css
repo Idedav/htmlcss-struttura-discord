@@ -4,22 +4,25 @@
     box-sizing: border-box;
 }
 
+.nav-container, .text-head, .section-container, .download-container, .ref-container, .footer-container{
+    width: 80%;
+    margin: auto;
+}
+
 /* HEADER */
 .background-nav{
-    background-color: #ADD8E6;
+    background-color: #ADD8E6;/* DEBUG */
     padding: 20px;
 }
 
 .nav-container{
-    width: 80%;
-    margin:auto;
-    background-color: #DAA520;
+    background-color: #DAA520;/* DEBUG */
     display: flex;
     justify-content: space-between;
 }
 
 .logo, .button-access{
-    width: 25%;
+    flex-grow: 1;
 }
 
 .button-access{
@@ -27,7 +30,7 @@
 }
 
 nav{
-    width: 50%;
+    flex-grow: 2;
     text-align: center;
 }
 
@@ -37,15 +40,13 @@ nav{
 }
 
 .background-text-head{
-    background-color: #00008B;
+    background-color: #00008B;/* DEBUG */
     padding: 20px;
 }
 
 .text-head{
-    width: 80%;
-    height: 300px;
-    margin: auto;
-    background-color: #EE82EE;
+    height: 300px;/* DEBUG */
+    background-color: #EE82EE;/* DEBUG */
 }
 
 /* MAIN SECTION */
@@ -53,73 +54,66 @@ nav{
 section{
     padding: 20px;
 }
+
 .section-container{
-    width: 80%;
-    margin: auto;
-    height: 300px;
+    height: 300px;/* DEBUG */
     display: flex;
     justify-content: flex-start;
 }
 
 .section-img{
-    width: 70%;
-    background-color: #1E90FF;
+    flex-grow: 2;
+    background-color: #1E90FF;/* DEBUG */
 }
 
 .section-text{
-    width: 30%;
-    background-color: #FFC0CB;
+    flex-grow: 1;
+    background-color: #FFC0CB;/* DEBUG */
 }
 
 .background-section{
-    background-color: lightgray;
+    background-color: lightgray;/* DEBUG */
     padding: 20px;
 }
 
 .download-container{
-    width: 80%;
-    height: 500px;
-    background-color: green;
-    margin: auto;
+    height: 500px;/* DEBUG */
+    background-color: green;/* DEBUG */
 }
 
 /* FOOTER */
 
 footer{
-    background-color: #23272A;
+    background-color: #23272A;/* DEBUG */
     padding: 20px;
     padding-bottom: 0px;
 }
 
 .ref-container{
-    width: 80%;
-    height: 400px;
-    margin: auto;
-    background-color: #DAA520;
+    height: 400px;/* DEBUG */
+    background-color: #DAA520;/* DEBUG */
     display: flex;
     justify-content: flex-start;
 }
 
 .ref-container div{
-    background-color: #20B2AA;
+    background-color: #20B2AA;/* DEBUG */
     flex-grow: 1;
 }
 
 #social{
-    background-color: #F08080;
+    background-color: #F08080;/* DEBUG */
     flex-grow: 2;
 }
 
 .footer-container{
-    width: 80%;
-    margin: auto;
-    height: 100px;
-    background-color: #7FFFD4;
+    height: 100px;/* DEBUG */
+    background-color: #7FFFD4;/* DEBUG */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo-footer, .sing-in{
-    background-color: #FFB6C1;
+    background-color: #FFB6C1;/* DEBUG */
 }
