@@ -5,12 +5,12 @@
 }
 
 /* HEADER */
-.head-container{
+.background-nav{
     background-color: #ADD8E6;
     padding: 20px;
 }
 
-.nav-logo-acc-container{
+.nav-container{
     width: 80%;
     margin:auto;
     background-color: #DAA520;
