@@ -31,7 +31,7 @@ nav{
     text-align: center;
 }
 
-.logo, nav, .button-access, .text-head, .section-img, .section-text, .download-container{
+.logo, nav, .button-access, .text-head, .section-img, .section-text, .download-container, .ref-container div, .footer-container, .logo-footer, .sing-in{
     border: 2px dotted black;
     /* DEBUG */
 }
@@ -81,4 +81,45 @@ section{
     height: 500px;
     background-color: green;
     margin: auto;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #23272A;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.ref-container{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    background-color: #DAA520;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ref-container div{
+    background-color: #20B2AA;
+    flex-grow: 1;
+}
+
+#social{
+    background-color: #F08080;
+    flex-grow: 2;
+}
+
+.footer-container{
+    width: 80%;
+    margin: auto;
+    height: 100px;
+    background-color: #7FFFD4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer, .sing-in{
+    background-color: #FFB6C1;
 }
